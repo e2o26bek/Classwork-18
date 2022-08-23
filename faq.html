@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classwork-18</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/faq.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=STIX+Two+Text:ital,wght@0,400;0,500;1,500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="flex">
+            <div class="content-wrapper">
+                <nav class="site-nav flex">
+                    <a href="#" class="logo-img">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                    <div class="nav__links flex block-desktop">
+                        <a href="tel:+998990000000" class="white">+7 (888) 888 88 88</a>
+                        <a href="#" class="red">Получить консультацию</a>
+                    </div>
+                    <div class="nav__links--desktop flex block-desktop">
+                        <a href="#" class="nav__links__item">Услуги</a>
+                        <a href="cases.html" class="nav__links__item">Кейсы</a>
+                        <a href="faq.html" class="nav__links__item">FAQ</a>
+                    </div>
+                    <label for="bars" class="bars--div flex">
+                        <div class="icon flex">
+                            <div class="bars-icon--line bars--line1"></div>
+                            <div class="bars-icon--line bars--line2"></div>
+                            <div class="bars-icon--line bars--line3"></div>
+                        </div>
+                    </label>
+                </nav>
+            </div>
+        </header>
+        <input type="checkbox" id="bars" class="icon-function">
+        <div class="bars-menu flex bars-menu--none">
+            <div class="bars-menu--flex flex">
+                <div class="bars-menu--line"></div>
+                <div class="bars-menu--content">
+                    <div class="bars-menu--wrapper center">
+                        <div class="bars-menu--fortext flex">
+                            <div class="bars-menu__list--big flex">
+                                <a href="#" class="bars-menu__links--text">Услуги</a>
+                                <a href="cases.html" class="bars-menu__links--text">Кейсы</a>
+                                <a href="faq.html" class="bars-menu__links--text">FAQ</a>
+                            </div>
+                            <div class="bars-menu__list--small flex">
+                                <div class="bars-menu__contact--list flex">
+                                    <p class="list__greytext">Наши контакты:</p>
+                                    <a href="mailto:a@agmail.com" class="list__links">example@iphub.com</a>
+                                    <a href="tel:+998990000000" class="list__links">+7 (888) 888 88 88</a>
+                                    <a href="https://www.google.ru/maps/dir/https:%2F%2Fwww.google.ru%2Fmaps%2Fplace%2F%25D0%259F%25D0%25BE%25D1%2587%25D1%2582%25D0%25B0%2B%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D0%25B8%2F@55.747128,37.5369521,17z%2Fdata%3D!3m1!4b1!4m5!3m4!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!8m2!3d55.747128!4d37.5391408%3Fhl%3Dru/%D0%9F%D0%BE%D1%87%D1%82%D0%B0+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8,+%D0%9F%D1%80%D0%B5%D1%81%D0%BD%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BD%D0%B0%D0%B1.,+8+%D1%811,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+123317/@55.7471081,37.4691014,12z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!2m2!1d37.5391408!2d55.747128!3e0?hl=ru"
+                                        class="list__links block-mobile map-none">Схема проезда</a>
+                                </div>
+                                <div class="bars-menu__social--list flex">
+                                    <p class="list__greytext">Мы в соцсетях:</p>
+                                    <div class="social__links--div flex">
+                                        <a href="https://www.facebook.com/" class="list__links">Facebook</a>
+                                        <a href="https://www.instagram.com/" class="list__links">Instagram</a>
+                                    </div>
+                                </div>
+                                <div class="bars-menu__map--list flex block-desktop block480">
+                                    <p class="list__greytext">Как добраться:</p>
+                                    <a href="https://www.google.ru/maps/dir/https:%2F%2Fwww.google.ru%2Fmaps%2Fplace%2F%25D0%259F%25D0%25BE%25D1%2587%25D1%2582%25D0%25B0%2B%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D0%25B8%2F@55.747128,37.5369521,17z%2Fdata%3D!3m1!4b1!4m5!3m4!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!8m2!3d55.747128!4d37.5391408%3Fhl%3Dru/%D0%9F%D0%BE%D1%87%D1%82%D0%B0+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8,+%D0%9F%D1%80%D0%B5%D1%81%D0%BD%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BD%D0%B0%D0%B1.,+8+%D1%811,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+123317/@55.7471081,37.4691014,12z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!2m2!1d37.5391408!2d55.747128!3e0?hl=ru"
+                                        class="list__links">Схема проезда</a>
+                                </div>
+                                <div class="bars-menu__address--list flex">
+                                    <a href="https://www.google.ru/maps/place/%D0%9F%D0%BE%D1%87%%82%D0%B0+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8/@55.747128,37.5369521,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!8m2!3d55.747128!4d37.5391408?hl=ru"
+                                        class="grey__link">123317, г. Москва, Пресненская наб., д.
+                                        8, стр. 1, эт. 3, п. 1, оф. 10</a>
+                                    <div class="inn-kpp">
+                                        <a href="" class="grey__link">ИНН: 7703472433</a>
+                                        <a href="" class="grey__link">КПП: 770301001</a>
+                                    </div>
+                                </div>
+                                <div class="bars-menu__img block-desktop">
+                                    <img src="img/bars-img.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <div class="content-wrapper">
+                <div class="hero flex">
+                    <div class="hero__content">
+                        <div class="hero__navigation-nav">
+                            <a href="index.html" class="sm-circle--arrow left flex">
+                                <div href="" class="arrow--left">
+                                    <img src="img/arrowleft.png" alt="">
+                                </div>
+                            </a>
+                            <div class="hero__links--div">
+                                <a class="grey">Главная</a>
+                                <i class="fa-solid fa-angle-right"></i>
+                                <a class="red">FAQ</a>
+                            </div>
+                        </div>
+                        <div class="h2text">FAQ</div>
+                    </div>
+                    <div class="hero__img">
+                        <img src="img/faq-hero-img.png" alt="">
+                    </div>
+                </div>
+                <div class="input-search--div">
+                    <input type="text" name="" id="" placeholder="Начните вводить слово">
+                    <img src="img/search.png" alt="">
+                </div>
+                <div class="label-select--div">
+                    <h3 class="h3-text mb6">Категории</h3>
+
+                    <!-- SELECT OPTION PART -->
+                    <select name="" id="select" class="mb35">
+                        <option value="v1">Все услуги</option>
+                        <option value="v2" selected>Товарные знаки</option>
+                        <option value="v3">Патенты</option>
+                        <option value="v4">Дизайн</option>
+                        <option value="v5">IT</option>
+                        <option value="v6">Защита</option>
+                        <option value="v7">Управление</option>
+                        <option value="v8">Обучение</option>
+                    </select>
+                    <!-- SELECT OPTION FOR DESKTOP -->
+                    <div class="select-links">
+                        <a href="#">Все услуги</a>
+                        <a href="#" class="active-option">Товарные знаки</a>
+                        <a href="#">Патенты</a>
+                        <a href="#">Дизайн</a>
+                        <a href="#">IT</a>
+                        <a href="#">Защита</a>
+                        <a href="#">Управление</a>
+                        <a href="#">Обучение</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ACCORDIONS -->
+            <div class="content-wrapper">
+                <section class="accordions--part">
+                    <div class="accordions--part1">
+
+                        <!-- accordion 1 -->
+                        <input type="checkbox" name="" id="accordion" checked>
+                        <label for="accordion">
+                            <div class="accordion--div">
+                                <div class="accordion--div--up-part">
+                                    <div class="accor__window1">Базы данных</div>
+                                    <div class="accor__window2">Дизайн</div>
+                                </div>
+                                <div class="accordion--div--below-part">
+                                    <p>Что такое патент и что он дает?</p>
+                                    <i class="fa-solid fa-arrow-down-long"></i>
+                                </div>
+                            </div>
+                        </label>
+                        <div class="accordion__text--div">
+                            Патент — это охранный документ, предоставляющий вам исключительное право на определённый
+                            результат интеллектуальной деятельности (изобретение, полезную модель, промышленный
+                            образец).
+                            Иными словами, патент — это гарантия вашей временной монополии на производство,
+                            распространение
+                            и сбыт определённого продукта (устройства, вещества, штамма микроорганизмов и т.д.),
+                            в том числе
+                            характеризующегося только оригинальным внешним видом, реализацию описанного в патенте
+                            способа
+                            выполнения того или иного действия (технологию). В обмен на предоставление вам такого
+                            исключительного права вы публично раскрываете в описании патента всю информацию о вашем
+                            продукте
+                            или технологии.
+                        </div>
+                        <!-- accordion 2 -->
+                        <input type="checkbox" name="" id="accordion2">
+                        <label for="accordion2">
+                            <div class="accordion--div2">
+                                <div class="accordion--div--up-part">
+                                    <div class="accor__window1">Базы данных</div>
+                                    <div class="accor__window2">Дизайн</div>
+                                </div>
+                                <div class="accordion--div--below-part2">
+                                    <p>Какие документы необходимо представить для получения патента на изобретение?</p>
+                                    <div class="for-icon2">
+                                        <i class="fa-solid fa-arrow-down-long"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                        <div class="accordion__text--div2">
+                            Патент — это охранный документ, предоставляющий вам исключительное право на определённый
+                            результат интеллектуальной деятельности (изобретение, полезную модель, промышленный
+                            образец).
+                            Иными словами, патент — это гарантия вашей временной монополии на производство,
+                            распространение
+                            и сбыт определённого продукта (устройства, вещества, штамма микроорганизмов и т.д.),
+                            в том числе
+                            характеризующегося только оригинальным внешним видом, реализацию описанного в патенте
+                            способа
+                            выполнения того или иного действия (технологию).
+                        </div>
+                        <!-- accordion 3 -->
+                        <input type="checkbox" name="" id="accordion3">
+                        <label for="accordion3">
+                            <div class="accordion--div3">
+                                <div class="accordion--div--up-part">
+                                    <div class="accor__window1">Базы данных</div>
+                                    <div class="accor__window2">Дизайн</div>
+                                </div>
+                                <div class="accordion--div--below-part3">
+                                    <p>Каков порядок рассмотрения заявки на выдачу патента на изобретение в Роспатенте?
+                                    </p>
+                                    <div class="for-icon3">
+                                        <i class="fa-solid fa-arrow-down-long"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                        <div class="accordion__text--div3">
+                            Патент — это охранный документ, предоставляющий вам исключительное право на определённый
+                            результат интеллектуальной деятельности (изобретение, полезную модель, промышленный
+                            образец).
+                            Иными словами, патент — это гарантия вашей временной монополии на производство,
+                            распространение
+                            и сбыт определённого продукта (устройства, вещества, штамма микроорганизмов и т.д.
+                        </div>
+
+
+                        <!-- accordion 4 -->
+                        <input type="checkbox" name="" id="accordion4">
+                        <label for="accordion4">
+                            <div class="accordion--div4">
+                                <div class="accordion--div--up-part">
+                                    <div class="accor__window1">Базы данных</div>
+                                    <div class="accor__window2">Дизайн</div>
+                                </div>
+                                <div class="accordion--div--below-part4">
+                                    <p>Можно ли продлить срок действия исключительного права?</p>
+                                    <div class="for-icon4">
+                                        <i class="fa-solid fa-arrow-down-long"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                        <div class="accordion__text--div4">
+                            Создаёт тихое право сильных брендов. Строит импакт-компанию и развивает команду, которая
+                            выбрала
+                            сферу интеллектуальной собственности своей миссией и которая способна смело
+                            и с удовольствием
+                            превосходить ожидания клиентов. Выводит в принцип работы равноценность и значимости
+                            достижения
+                            единой цели с клиентом.
+                            Выбирает клиентов, как партнёров, для которых бизнес — это личное.
+                            Область интересов — формирование устойчивой архитектуры систем управления интеллектуальной
+                            собственностью через создание честного сильного конкурентного преимущества
+                            для правообладателей.
+                        </div>
+                    </div>
+
+
+                    <!-- accordion 5 -->
+                    <div class="accordions-part2">
+
+                        <input type="checkbox" name="" id="accordion5">
+                        <label for="accordion5">
+                            <div class="accordion--div5">
+                                <div class="accordion--div--up-part">
+                                    <div class="accor__window1">Базы данных</div>
+                                    <div class="accor__window2">Дизайн</div>
+                                </div>
+                                <div class="accordion--div--below-part5">
+                                    <p>Чем подтверждается факт поступления заявки в Роспатент?</p>
+                                    <div class="for-icon5">
+                                        <i class="fa-solid fa-arrow-down-long"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                        <div class="accordion__text--div5">
+                            Создаёт тихое право сильных брендов. Строит импакт-компанию и развивает команду, которая
+                            выбрала
+                            сферу интеллектуальной собственности своей миссией и которая способна смело
+                            и с удовольствием
+                            превосходить ожидания клиентов. Выводит в принцип работы равноценность и значимости
+                            достижения
+                            единой цели с клиентом.
+                            Выбирает клиентов, как партнёров, для которых бизнес — это личное.
+                        </div>
+
+
+                        <!-- accordion 6 -->
+                        <input type="checkbox" name="" id="accordion6">
+                        <label for="accordion6">
+                            <div class="accordion--div6">
+                                <div class="accordion--div--up-part">
+                                    <div class="accor__window1">Базы данных</div>
+                                    <div class="accor__window2">Дизайн</div>
+                                </div>
+                                <div class="accordion--div--below-part6">
+                                    <p>Кто может подать заявку?</p>
+                                    <div class="for-icon6">
+                                        <i class="fa-solid fa-arrow-down-long"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                        <div class="accordion__text--div6">
+                            Строит импакт-компанию и развивает команду, которая выбрала
+                            сферу интеллектуальной собственности своей миссией и которая способна смело
+                            и с удовольствием
+                            превосходить ожидания клиентов. Выводит в принцип работы равноценность и значимости
+                            достижения
+                            единой цели с клиентом.
+                            Выбирает клиентов, как партнёров, для которых бизнес — это личное.
+                        </div>
+
+                        <!-- accordion 7 -->
+                        <input type="checkbox" name="" id="accordion7">
+                        <label for="accordion7">
+                            <div class="accordion--div7">
+                                <div class="accordion--div--up-part">
+                                    <div class="accor__window1">Базы данных</div>
+                                    <div class="accor__window2">Дизайн</div>
+                                </div>
+                                <div class="accordion--div--below-part7">
+                                    <p>Какие документы необходимо представить для получения патента на полезную модель?
+                                    </p>
+                                    <div class="for-icon7">
+                                        <i class="fa-solid fa-arrow-down-long"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                        <div class="accordion__text--div7">
+                            Создаёт тихое право сильных брендов. Строит импакт-компанию и развивает команду, которая
+                            выбрала
+                            сферу интеллектуальной собственности своей миссией и которая способна смело
+                            и с удовольствием
+                            превосходить ожидания клиентов. Выводит в принцип работы равноценность и значимости
+                            достижения
+                            единой цели с клиентом.
+                            Выбирает клиентов, как партнёров, для которых бизнес — это личное.
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+
+
+
+
+
+
+
+            <section class="red-main2">
+                <div class="content-wrapper">
+                    <div class="red-main2__content flex">
+                        <div class="red-main2__textpart">
+                            <h2 class="h2text align-center">Не нашли нужную услугу?Оставьте заявку, мы вам поможем!
+                            </h2>
+                            <p class="greytext mb35 align-center white">У нас есть решения для всех ваших
+                                потребностей
+                                в сфере
+                                защиты
+                                и регистрации интеллектуальной собственности</p>
+                            <a href="page4.html" class="divs-wrapper center not-center">
+                                <div class="div--text black">
+                                    Получить индивидуальную консультацию
+                                </div>
+                                <div class="div--border black-border"></div>
+                            </a>
+                        </div>
+                        <div class="red-main2__imgpart block-desktop">
+                            <img src="img/red-main-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="content-wrapper">
+                    <div class="footer__part1 flex">
+                        <img src="img/logo.png" alt="">
+                        <div class="footer__part1__text--div flex">
+                            <div class="footer-greytext">Общество с ограниченной
+                                ответственностью «Центр интеллектуальной собственности и инноваций „АйПиХаб“»
+                            </div>
+                            <div class="footer__part1__link--div flex">
+                                <div class="footer__link--adress">
+                                    <a href="https://www.google.ru/maps/place/%D0%9F%D0%BE%D1%87%D1%82%D0%B0+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8/@55.747128,37.5369521,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!8m2!3d55.747128!4d37.5391408?hl=ru"
+                                        class="footer-greytext white">
+                                        123317, г. Москва, Пресненская наб., д.
+                                        8, стр. 1, эт. 3, п. 1, оф. 10
+                                    </a>
+                                </div>
+                                <div class="footer__link--inn--div flex">
+                                    <a class="inn-kpp"><span class="grey m-0">ИНН:</span>7703472433</a>
+                                    <a class="inn-kpp"><span class="grey m-0">КПП:</span>770301001</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__line"></div>
+                    <div class="footer__part2 flex">
+                        <div class="footer__navigationlinks--div">
+                            <p class="footer__link--headertext">Навигация:</p>
+                            <a class="footer__link--linktext">Услуги</a>
+                            <a class="footer__link--linktext">Кейсы</a>
+                            <a class="footer__link--linktext">FAQ</a>
+                        </div>
+                        <div class="footer__contactlinks--div">
+                            <p class="footer__link--headertext">Наши контакты:</p>
+                            <a href="mailto:a@agmail.com" class="footer__link--linktext">example@iphub.com</a>
+                            <a href="tel:+998990000000" class="footer__link--linktext">+7 (888) 888 88 88</a>
+                            <a href="https://www.google.ru/maps/dir//%D0%9F%D0%BE%D1%87%D1%82%D0%B0+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8,+%D0%9F%D1%80%D0%B5%D1%81%D0%BD%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BD%D0%B0%D0%B1.,+8+%D1%811,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+123317/@55.747128,37.5369521,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!2m2!1d37.5391408!2d55.747128!3e0?hl=ru"
+                                class="footer__link--linktext block-in-768 block-mobile">Схема проезда</a>
+                        </div>
+                        <div class="footer__sociallinks--div">
+                            <p class="footer__link--headertext">Мы в соцсетях:</p>
+                            <div class="social-links__wrapper flex">
+                                <a href="https://www.facebook.com/" class="footer__link--linktext">Facebook</a>
+                                <a href="https://www.instagram.com/" class="footer__link--linktext">Instagram</a>
+                            </div>
+                        </div>
+                        <div class="footer__maplinks--div none-in-768 block-in-1000 db">
+                            <p class="footer__link--headertext">Как добраться:</p>
+                            <a href="" class="footer__link--linktext">Схема проезда</a>
+                        </div>
+                    </div>
+                    <div class="footer__part3 flex">
+                        <a class="footer-greytext">© 2021 IPhub. Все права защищены.</a>
+                        <a class="footer-greytext white">Публичная оферта</a>
+                        <a class="footer-greytext white">Пользовательское соглашение</a>
+                    </div>
+                </div>
+            </footer>
+</body>
+
+</html>

@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classwork-18</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=STIX+Two+Text:ital,wght@0,400;0,500;1,500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="flex">
+            <div class="content-wrapper">
+                <nav class="site-nav flex">
+                    <a href="#" class="logo-img">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                    <div class="nav__links flex block-desktop">
+                        <a href="tel:+998990000000" class="white">+7 (888) 888 88 88</a>
+                        <a href="#" class="red">Получить консультацию</a>
+                    </div>
+                    <div class="nav__links--desktop flex block-desktop">
+                        <a href="services.html" class="nav__links__item">Услуги</a>
+                        <a href="cases.html" class="nav__links__item">Кейсы</a>
+                        <a href="faq.html" class="nav__links__item">FAQ</a>
+                    </div>
+                    <label for="bars" class="bars--div flex">
+                        <div class="icon flex">
+                            <div class="bars-icon--line bars--line1"></div>
+                            <div class="bars-icon--line bars--line2"></div>
+                            <div class="bars-icon--line bars--line3"></div>
+                        </div>
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                </nav>
+            </div>
+        </header>
+        <input type="checkbox" id="bars" class="icon-function">
+        <div class="bars-menu flex ">
+            <div class="bars-menu--content">
+                <div class="bars-menu--wrapper center">
+                    <div class="bars-menu--fortext flex">
+                        <div class="bars-menu__list--big flex">
+                            <a href="services.html" class="bars-menu__links--text">Услуги</a>
+                            <a href="cases.html" class="bars-menu__links--text">Кейсы</a>
+                            <a href="faq.html" class="bars-menu__links--text">FAQ</a>
+                        </div>
+                        <div class="bars-menu__list--small flex">
+                            <div class="bars-menu__contact--list flex">
+                                <p class="list__greytext">Наши контакты:</p>
+                                <a href="mailto:a@agmail.com" class="list__links">example@iphub.com</a>
+                                <a href="tel:+998990000000" class="list__links">+7 (888) 888 88 88</a>
+                                <a href="https://www.google.ru/maps/dir/https:%2F%2Fwww.google.ru%2Fmaps%2Fplace%2F%25D0%259F%25D0%25BE%25D1%2587%25D1%2582%25D0%25B0%2B%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D0%25B8%2F@55.747128,37.5369521,17z%2Fdata%3D!3m1!4b1!4m5!3m4!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!8m2!3d55.747128!4d37.5391408%3Fhl%3Dru/%D0%9F%D0%BE%D1%87%D1%82%D0%B0+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8,+%D0%9F%D1%80%D0%B5%D1%81%D0%BD%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BD%D0%B0%D0%B1.,+8+%D1%811,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+123317/@55.7471081,37.4691014,12z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!2m2!1d37.5391408!2d55.747128!3e0?hl=ru"
+                                    class="list__links block-mobile map-none">Схема проезда</a>
+                            </div>
+                            <div class="bars-menu__social--list flex">
+                                <p class="list__greytext">Мы в соцсетях:</p>
+                                <div class="social__links--div flex">
+                                    <a href="https://www.facebook.com/" class="list__links">Facebook</a>
+                                    <a href="https://www.instagram.com/" class="list__links">Instagram</a>
+                                </div>
+                            </div>
+                            <div class="bars-menu__map--list flex block-desktop block480">
+                                <p class="list__greytext">Как добраться:</p>
+                                <a href="https://www.google.ru/maps/dir/https:%2F%2Fwww.google.ru%2Fmaps%2Fplace%2F%25D0%259F%25D0%25BE%25D1%2587%25D1%2582%25D0%25B0%2B%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D0%25B8%2F@55.747128,37.5369521,17z%2Fdata%3D!3m1!4b1!4m5!3m4!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!8m2!3d55.747128!4d37.5391408%3Fhl%3Dru/%D0%9F%D0%BE%D1%87%D1%82%D0%B0+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8,+%D0%9F%D1%80%D0%B5%D1%81%D0%BD%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BD%D0%B0%D0%B1.,+8+%D1%811,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+123317/@55.7471081,37.4691014,12z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!2m2!1d37.5391408!2d55.747128!3e0?hl=ru"
+                                    class="list__links">Схема проезда</a>
+                            </div>
+                            <div class="bars-menu__address--list flex">
+                                <a href="https://www.google.ru/maps/place/%D0%9F%D0%BE%D1%87%%82%D0%B0+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8/@55.747128,37.5369521,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!8m2!3d55.747128!4d37.5391408?hl=ru"
+                                    class="grey__link">123317, г. Москва, Пресненская наб., д.
+                                    8, стр. 1, эт. 3, п. 1, оф. 10</a>
+                                <div class="inn-kpp">
+                                    <a href="" class="grey__link">ИНН: 7703472433</a>
+                                    <a href="" class="grey__link">КПП: 770301001</a>
+                                </div>
+                            </div>
+                            <div class="bars-menu__img block-desktop">
+                                <img src="img/bars-img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main>
+            <div class="content-wrapper">
+                <div class="hero flex">
+                    <div class="hero__content flex">
+                        <div class="greyheadertext">ВАШ IP ПАРТНЕР</div>
+                        <h1 class="h1">Интеллектуальная <span class="italictext">собственность</span> </h1>
+                        <p class="greytext textcenter text-start mb15">Индивидуальные правовые решения для защиты
+                            и охраны
+                            вашихнематериальныхактивов в России и за рубежом</p>
+                        <div class="div-btns">
+                            <a href="page4.html" class="divs-wrapper">
+                                <div class="div--text">
+                                    Получить индивидуальную консультацию
+                                </div>
+                                <div class="div--border"></div>
+                            </a>
+                            <a href="services.html" class="arrowbtn flex">
+                                <p class="arrowbtntext">Все услуги</p>
+                                <div href="#" class="arrow--right">
+                                    <img src="img/arrowright.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero__img">
+                        <img src="img/hero-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="content-wrapper">
+                <div class="main-cards flex">
+                    <section class="main-cards__img">
+                        <img src="img/bars-img.png" alt="">
+                    </section>
+                    <section class="main-cards__content">
+                        <h2 class="h2text">Многолетний опыт</h2>
+                        <p class="greytext mb35">Наша компания была создана в 2019 году специалистами, имеющими опыт
+                            работы в сфере интеллектуальной собственности более 20 лет</p>
+                        <div class="main-cards--div flex">
+                            <div class="main-cards__card--border flex">
+                                <div class="main-cards__card flex">
+                                    <p class="main-cards--number">>300</p>
+                                    <p class="greytext">Представления интересов в спорах по IP правам в год</p>
+                                </div>
+                            </div>
+                            <div class="main-cards__card--border flex">
+                                <div class="main-cards__card flex">
+                                    <p class="main-cards--number">>2500</p>
+                                    <p class="greytext">Оказаний юр. помощи компаниям в год</p>
+                                </div>
+                            </div>
+                            <div class="main-cards__card--border flex">
+                                <div class="main-cards__card flex">
+                                    <p class="main-cards--number">1150</p>
+                                    <p class="greytext">Завершённых дел по регистрации товарных знаков</p>
+                                </div>
+                            </div>
+                            <div class="main-cards__card--border flex">
+                                <div class="main-cards__card flex">
+                                    <p class="main-cards--number">61</p>
+                                    <p class="greytext">Совокупный опыт экспертов</p>
+                                </div>
+                            </div>
+                            <div class="main-cards__card--border flex">
+                                <div class="main-cards__card flex">
+                                    <p class="main-cards--number">99%</p>
+                                    <p class="greytext">Успех получения патентов</p>
+                                </div>
+                            </div>
+                            <div class="main-cards__card--border flex">
+                                <div class="main-cards__card flex">
+                                    <p class="main-cards--number">98%</p>
+                                    <p class="greytext">Успех регистрации товарных знаков</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="h2text">Подтвержденный практикой</h2>
+                        <p class="greytext mb35">Мы и наши клиенты гордимся опытом, который подтверждается нашими
+                            результатами от закрепления прав заявителей до успешной защиты интересов</p>
+                        <div class="main-cards2--div flex">
+                            <div class="main-cards2__card flex">'
+                                <img src="img/logo1.png" alt="">
+                            </div>
+                            <div class="main-cards2__card flex">
+                                <img src="img/logo2.png" alt="">
+                            </div>
+                            <div class="main-cards2__card flex">
+                                <img src="img/logo3.png" alt="">
+                            </div>
+                            <div class="main-cards2__card flex">
+                                <img src="img/logo4.png" alt="">
+                            </div>
+                            <div class="main-cards2__card flex">
+                                <img src="img/logo5.png" alt="">
+                            </div>
+                            <div class="main-cards2__card flex">
+                                <img src="img/logo6.png" alt="">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <section class="main--grey">
+            <div class="content-wrapper">
+                <div class="main--grey__contentpart">
+                    <div class="main--grey__text">
+                        <h2 class="h2blacktext">Решения для вашего бизнеса</h2>
+                        <p class="greytext mb35">У нас есть все необходимые ресурсы для решения любых ваших потребностей
+                            в сфере
+                            интеллектуальной собственности</p>
+                    </div>
+                    <a href="services.html" class="arrowbtn flex block-desktop">
+                        <p class="arrowbtntext">Все услуги</p>
+                        <div href="" class="arrow--right">
+                            <img src="img/arrowright.png" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="main__card--div flex">
+                    <div class="main__grey__card flex">
+                        <img src="img/arrow-topright.png" class="arrow--topright" alt="">
+                        <img src="img/card1img.png" class="card--img" alt="">
+                        <p href="#" class="greytext card-link">Товарные знаки</p>
+                        <p class="greytext appearing-cardtext">Государственная регистрация торговых знаков в РФ и в мире
+                        </p>
+                    </div>
+                    <div class="main__grey__card main__grey__card2 flex">
+                        <img src="img/arrow-topright.png" class="arrow--topright" alt="">
+                        <img src="img/greycard2-img.png" class="card--img" alt="">
+                        <p href="#" class="greytext card-link">Изобретения и Полезные модели </p>
+                        <p class="greytext appearing-cardtext">Государственная регистрация торговых знаков в РФ и в мире
+                        </p>
+                    </div>
+                    <div class="main__grey__card main__grey__card3 flex">
+                        <img src="img/arrow-topright.png" class="arrow--topright" alt="">
+                        <img src="img/grey-card3-img.png" class="card--img" alt="">
+                        <p href="#" class="greytext card-link">Промышленные образцы</p>
+                        <p class="greytext appearing-cardtext">Оформление прав ИС в проектах и бизнесе
+                        </p>
+                    </div>
+                    <div class="main__grey__card main__grey__card4 flex">
+                        <img src="img/arrow-topright.png" class="arrow--topright" alt="">
+                        <img src="img/grey-card4-img.png" class="card--img" alt="">
+                        <p href="#" class="greytext card-link">Программы для ЭВМ и Базы данных</p>
+                        <p class="greytext appearing-cardtext">Государственная регистрация торговых знаков в РФ и в мире
+                        </p>
+                    </div>
+                </div>
+                <div class="wrappers--div flex center mb0">
+                    <div href="#" class="sm-circle--arrow left flex">
+                        <div href="" class="arrow--left">
+                            <img src="img/arrowleft.png" alt="">
+                        </div>
+                    </div>
+                    <div href="#" class="sm-circle--arrow flex">
+                        <div href="" class="arrow--right arrow--right--circle">
+                            <img src="img/arrowrightcircle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <a href="services.html" class="arrowbtn flex center mb55 none-in-768">
+                    <p class="arrowbtntext">Все услуги</p>
+                    <div href="" class="arrow--right">
+                        <img src="img/arrowright.png" alt="">
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="red-main">
+            <div class="content-wrapper">
+                <div class="red-main__content flex">
+                    <img src="img/globus.png" class="globus--img" alt="">
+                    <p class="h2text mt-0">Не знаете, что вам нужно? </p>
+                    <div class="whitetext textcenter mb50">Пройдите квиз, чтобы выбрать оптимальное решение для Вашей
+                        задачи
+                    </div>
+                    <div class="red-main__part1 flex">
+                        <div class="red-main__page-text flex">
+                            <h3 class="red--card__headertext">С какой целью вы обращаетесь?</h3>
+                            <p class="wrapper__numberstext"><span class="redtext">2</span>/8</p>
+                        </div>
+                        <div class="red-main__links--div flex">
+                            <a href="" class="red-main__link">Регистрацию полезной модели</a>
+                            <a href="" class="red-main__link">Регистрацию промышленного образца</a>
+                            <a href="" class="red-main__link">Регистрацию прав на использование полезной модели,
+                                промобразца, изобретенния</a>
+                            <a href="" class="red-main__link">Подготовка заявки на выдачу патента</a>
+                            <a href="" class="red-main__link">Регистрацию изобретения</a>
+                            <a href="" class="red-main__link">Подготовка заявки на передачу прав патента</a>
+                        </div>
+                        <div class="back-next--div flex">
+                            <div href="#" class="sm-circle--arrow left flex for-redmain">
+                                <p class="arrowbtntext">Назад</p>
+                                <div href="" class="arrow--left for-redmain-icon--left">
+                                    <img src="img/arrowleft.png" alt="">
+                                </div>
+                            </div>
+                            <div href="#" class="sm-circle--arrow flex for-redmain">
+                                <p class="arrowbtntext">Далее </p>
+                                <div href="" class="arrow--right arrow--right--circle for-redmain-icon--right">
+                                    <img src="img/arrowrightcircle.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="red--card__headertext mb20">Бонусы после прохождения</p>
+                    <div class="red-main__part2 flex">
+                        <div class="rm__part2--button flex">
+                            <div class="for-img">
+                                <img src="img/romb1.png" alt="">
+                            </div>
+                            <div class="for-text flex">
+                                <p class="whitetext">Название бонуса в однуили две строки</p>
+                            </div>
+                        </div>
+                        <div class="rm__part2--button flex">
+                            <div class="for-img">
+                                <img src="img/romb2.png" alt="">
+                            </div>
+                            <div class="for-text flex">
+                                <p class="whitetext">Название бонуса в однуили две строки</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="black--cards">
+            <div class="content-wrapper">
+                <div class="black--cards__content">
+                    <div class="black--cards__textpart flex">
+                        <div class="black--cards__text">
+                            <h2 class="h2text">Реализованные кейсы</h2>
+                            <p class="greytext mb35">Наши реальные истории о том, как мы помогали своим клиентам
+                                регистрировать товарные знаки и оформлять права на объекты интеллектуальной
+                                собственности</p>
+                        </div>
+                        <a href="services.html" class="arrowbtn flex block-desktop">
+                            <p class="arrowbtntext">Все услуги</p>
+                            <div href="" class="arrow--right">
+                                <img src="img/arrowright.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="black--cards__card--div flex">
+                        <div class="black--cards__card flex">
+                            <div class="black--card--part1 flex">
+                                <img src="img/arrow-topright.png" class="black--card__arrow block-mobile" alt="">
+                                <img src="img/circle-logo.png" class="logo-circle" alt="">
+                            </div>
+                            <div class="black--card--part2 flex">
+                                <img src="img/arrow-topright.png" class="as-end block-desktop block-in480" alt="">
+                                <div class="black-card__text">
+
+                                    <h3 class="black--card__headertext mt15">CIRKLE — производитель косметической
+                                        продукции
+                                    </h3>
+                                    <p class="greytext">Как в результате защиты мы зарегистрировали бренд российской
+                                        косметики при наличии оснований для отказа</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="black--cards__card block-desktop none-in-768 block-in-1000">
+                            <div class="black--card--part1 flex">
+                                <img src="img/arrow-topright.png" class="black--card__arrow block-mobile" alt="">
+                                <img src="img/cameraiq" class="logo-circle bigger-img" alt="">
+                            </div>
+                            <div class="black--card--part2 flex">
+                                <img src="img/arrow-topright.png" class="as-end block-desktop block-in480 " alt="">
+                                <div class="black-card__text">
+
+                                    <h3 class="black--card__headertext mt15">Camera IQ — производитель систем машинного
+                                        зрения
+                                    </h3>
+                                    <p class="greytext">Защита прав после ребрендинга. Как провести успешную регистрацию
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrappers--div flex center mb0">
+                        <div href="#" class="sm-circle--arrow left flex">
+                            <div href="" class="arrow--left">
+                                <img src="img/arrowleft.png" alt="">
+                            </div>
+                        </div>
+                        <div href="#" class="sm-circle--arrow flex">
+                            <div href="" class="arrow--right arrow--right--circle">
+                                <img src="img/arrowrightcircle.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="services.html" class="arrowbtn flex center none-in-768">
+                        <p class="arrowbtntext">Все услуги</p>
+                        <div href="" class="arrow--right">
+                            <img src="img/arrowright.png" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="white-main">
+            <div class="content-wrapper">
+                <div class="white-main__content">
+                    <h2 class="h2blacktext">Команда экспертов</h2>
+                    <p class="greytext mb60">Наша команда — эксперты в сфере IP. Мы берёмся за работу и доводим дело
+                        до конца, потому что понимаем ценности вашего бизнеса
+                    <p>
+                    <div class="white-main__cards--div flex">
+                        <div class="white-main__card">
+                            <div class="white__card__img-div">
+                                <img src="img/person1.png" class="white__card--img" alt="">
+                            </div>
+                            <p class="white-card--nametext">Раймм Лидия Вячеславовна</p>
+                            <p class="grey2text">Генеральный директор</p>
+                        </div>
+                        <div class="white-main__card block-desktop block-in480">
+                            <div class="white__card__img-div">
+                                <img src="img/person2.png" class="white__card--img" alt="">
+                            </div>
+                            <p class="white-card--nametext">Золотов Геннадий Борисович</p>
+                            <p class="grey2text">Руководитель отдела патентно-юридического делопроизводства</p>
+                        </div>
+                        <div class="white-main__card block-desktop">
+                            <div class="white__card__img-div">
+                                <img src="img/person3.png" class="white__card--img" alt="">
+                            </div>
+                            <p class="white-card--nametext">Осоргина Екатерина Александровна</p>
+                            <p class="grey2text">Патентный поверенный РФ</p>
+                        </div>
+                        <div class="white-main__card block-desktop none-in-768">
+                            <div class="white__card__img-div">
+                                <img src="img/person4.png" class="white__card--img" alt="">
+                            </div>
+                            <p class="white-card--nametext">Рачеева Юлия Геннадьевна</p>
+                            <p class="grey2text">Патентный поверенный РФ</p>
+                        </div>
+                    </div>
+                    <div class="wrappers--div flex center mb40">
+                        <div href="#" class="sm-circle--arrow left flex">
+                            <div href="" class="arrow--left">
+                                <img src="img/arrowleft.png" alt="">
+                            </div>
+                        </div>
+                        <div href="#" class="sm-circle--arrow flex">
+                            <div href="" class="arrow--right arrow--right--circle">
+                                <img src="img/arrowrightcircle.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="white-main__headertext--div flex">
+                        <h2 class="formulas-text">Мы на форумах</h2>
+                        <div class="before-than-text--div flex">
+                            <a class="grey">Прошедшие</a>
+                            <a class="red">Будущие</a>
+                        </div>
+                    </div>
+                    <div class="white-main--row-cards flex">
+                        <div class="ava-card flex">
+                            <div class="for-ava">
+                                <img src="img/ava1.png" alt="">
+                            </div>
+                            <div class="for-text">
+                                <p class="white-card--nametext">Раймм Лидия Вячеславовна</p>
+                                <p class="grey2text">Генеральный директор</p>
+                            </div>
+                        </div>
+                        <div class="row-card--part2 flex">
+                            <div class="info-card">
+                                <h2 class="formulas-text fs18 mb5">Менторская гостинная</h2>
+                                <div class="line-div"></div>
+                                <p class="greytext">Индивидуальная 30-ти минутная сессия с разбором вашего кейса.</p>
+                            </div>
+                            <div class="btn-part">
+                                <a href="page4.html" class="sm-circle--arrow big-arrowbtn flex">
+                                    <p class="datetext">9-10 ноября <br>
+                                        <span class="timetext">18:00</span>
+                                    </p>
+                                    <div href="" class="arrow--right arrow--right--circle">
+                                        <img src="img/arrowrightcircle.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line--long"></div>
+                    <div class="white-main--row-cards flex">
+                        <div class="ava-card flex">
+                            <div class="for-ava">
+                                <img src="img/ava3.png" alt="">
+                            </div>
+                            <div class="for-text">
+                                <p class="white-card--nametext">Геннадий Золотов</p>
+                                <p class="grey2text">Руководитель отдела патентно-юридического делопроизводства</p>
+                            </div>
+                        </div>
+                        <div class="row-card--part2 flex">
+                            <div class="info-card">
+                                <h2 class="formulas-text fs18 mb5">WIPO SUMMER SCHOOL — 2021 RUSSIA</h2>
+                                <div class="line-div"></div>
+                                <p class="greytext">Летняя школа Всемирной организации интеллектуальной собственности
+                                </p>
+                            </div>
+                            <div class="btn-part">
+                                <a href="page4.html" class="sm-circle--arrow big-arrowbtn flex">
+                                    <p class="datetext">28 июня- 9июля <br>
+                                        <span class="timetext">15:30</span>
+                                    </p>
+                                    <div href="" class="arrow--right arrow--right--circle">
+                                        <img src="img/arrowrightcircle.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="red-main2">
+            <div class="content-wrapper">
+                <div class="red-main2__content flex">
+                    <div class="red-main2__textpart">
+                        <h2 class="h2text align-center">Оставьте заявку на консультацию и мы вам поможем!</h2>
+                        <p class="greytext mb35 align-center white">У нас есть решения для всех ваших потребностей
+                            в сфере
+                            защиты
+                            и регистрации интеллектуальной собственности</p>
+                        <a href="page4.html" class="divs-wrapper center not-center">
+                            <div class="div--text black">
+                                Получить индивидуальную консультацию
+                            </div>
+                            <div class="div--border black-border"></div>
+                        </a>
+                    </div>
+                    <div class="red-main2__imgpart block-desktop">
+                        <img src="img/red-main-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="content-wrapper">
+                <div class="footer__part1 flex">
+                    <img src="img/logo.png" alt="">
+                    <div class="footer__part1__text--div flex">
+                        <div class="footer-greytext">Общество с ограниченной
+                            ответственностью «Центр интеллектуальной собственности и инноваций „АйПиХаб“»
+                        </div>
+                        <div class="footer__part1__link--div flex">
+                            <div class="footer__link--adress">
+                                <a href="https://www.google.ru/maps/place/%D0%9F%D0%BE%D1%87%D1%82%D0%B0+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8/@55.747128,37.5369521,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!8m2!3d55.747128!4d37.5391408?hl=ru"
+                                    class="footer-greytext white">
+                                    123317, г. Москва, Пресненская наб., д.
+                                    8, стр. 1, эт. 3, п. 1, оф. 10
+                                </a>
+                            </div>
+                            <div class="footer__link--inn--div flex">
+                                <a class="inn-kpp"><span class="grey m-0">ИНН:</span>7703472433</a>
+                                <a class="inn-kpp"><span class="grey m-0">КПП:</span>770301001</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__line"></div>
+                <div class="footer__part2 flex">
+                    <div class="footer__navigationlinks--div">
+                        <p class="footer__link--headertext">Навигация:</p>
+                        <a href="services.html" class="footer__link--linktext">Услуги</a>
+                        <a href="cases.html" class="footer__link--linktext">Кейсы</a>
+                        <a href="faq.html" class="footer__link--linktext">FAQ</a>
+                    </div>
+                    <div class="footer__contactlinks--div">
+                        <p class="footer__link--headertext">Наши контакты:</p>
+                        <a href="mailto:a@agmail.com" class="footer__link--linktext">example@iphub.com</a>
+                        <a href="tel:+998990000000" class="footer__link--linktext">+7 (888) 888 88 88</a>
+                        <a href="https://www.google.ru/maps/dir//%D0%9F%D0%BE%D1%87%D1%82%D0%B0+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8,+%D0%9F%D1%80%D0%B5%D1%81%D0%BD%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BD%D0%B0%D0%B1.,+8+%D1%811,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+123317/@55.747128,37.5369521,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!2m2!1d37.5391408!2d55.747128!3e0?hl=ru"
+                            class="footer__link--linktext block-in-768 block-mobile">Схема проезда</a>
+                    </div>
+                    <div class="footer__sociallinks--div">
+                        <p class="footer__link--headertext">Мы в соцсетях:</p>
+                        <div class="social-links__wrapper flex">
+                            <a href="https://www.facebook.com/" class="footer__link--linktext">Facebook</a>;
+                            <a href="https://www.instagram.com/" class="footer__link--linktext">Instagram</a>
+                        </div>
+                    </div>
+                    <div class="footer__maplinks--div none-in-768 block-in-1000 db">
+                        <p class="footer__link--headertext">Как добраться:</p>
+                        <a href="" class="footer__link--linktext">Схема проезда</a>
+                    </div>
+                </div>
+                <div class="footer__part3 flex">
+                    <a class="footer-greytext">© 2021 IPhub. Все права защищены.</a>
+                    <a class="footer-greytext white">Публичная оферта</a>
+                    <a class="footer-greytext white">Пользовательское соглашение</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classwork-18</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/page4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=STIX+Two+Text:ital,wght@0,400;0,500;1,500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="flex">
+            <div class="content-wrapper">
+                <nav class="site-nav flex">
+                    <a href="#" class="logo-img">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                    <div class="nav__links flex block-desktop flex-in-1000">
+                        <a href="tel:+998990000000" class="white">+7 (888) 888 88 88</a>
+                        <a href="#" class="red">Получить консультацию</a>
+                    </div>
+                    <div class="nav__links--desktop flex block-desktop">
+                        <a href="services.html" class="nav__links__item">Услуги</a>
+                        <a href="cases.html" class="nav__links__item">Кейсы</a>
+                        <a href="faq.html" class="nav__links__item">FAQ</a>
+                        <a href="registration.html" class="nav__links__item"> Регистрация</a>
+                    </div>
+                    <label for="bars" class="bars--div flex">
+                        <div class="icon flex">
+                            <div class="bars-icon--line bars--line1"></div>
+                            <div class="bars-icon--line bars--line2"></div>
+                            <div class="bars-icon--line bars--line3"></div>
+                        </div>
+                    </label>
+                </nav>
+            </div>
+        </header>
+        <input type="checkbox" id="bars" class="icon-function">
+        <div class="bars-menu flex bars-menu--none">
+            <div class="bars-menu--flex flex">
+                <div class="bars-menu--line"></div>
+                <div class="bars-menu--content">
+                    <div class="bars-menu--wrapper center">
+                        <div class="bars-menu--fortext flex">
+                            <div class="bars-menu__list--big flex">
+                                <a href="services.html" class="bars-menu__links--text">Услуги</a>
+                                <a href="cases.html" class="bars-menu__links--text">Кейсы</a>
+                                <a href="faq.html" class="bars-menu__links--text">FAQ</a>
+                                <a href="registration.html" class="bars-menu__links--text">Регистрация</a>
+                            </div>
+                            <div class="bars-menu__list--small flex">
+                                <div class="bars-menu__contact--list flex">
+                                    <p class="list__greytext">Наши контакты:</p>
+                                    <a href="mailto:a@agmail.com" class="list__links">example@iphub.com</a>
+                                    <a href="tel:+998990000000" class="list__links">+7 (888) 888 88 88</a>
+                                    <a href="https://www.google.ru/maps/dir/https:%2F%2Fwww.google.ru%2Fmaps%2Fplace%2F%25D0%259F%25D0%25BE%25D1%2587%25D1%2582%25D0%25B0%2B%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D0%25B8%2F@55.747128,37.5369521,17z%2Fdata%3D!3m1!4b1!4m5!3m4!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!8m2!3d55.747128!4d37.5391408%3Fhl%3Dru/%D0%9F%D0%BE%D1%87%D1%82%D0%B0+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8,+%D0%9F%D1%80%D0%B5%D1%81%D0%BD%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BD%D0%B0%D0%B1.,+8+%D1%811,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+123317/@55.7471081,37.4691014,12z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!2m2!1d37.5391408!2d55.747128!3e0?hl=ru"
+                                        class="list__links block-mobile map-none">Схема проезда</a>
+                                </div>
+                                <div class="bars-menu__social--list flex">
+                                    <p class="list__greytext">Мы в соцсетях:</p>
+                                    <div class="social__links--div flex">
+                                        <a href="https://www.facebook.com/" class="list__links">Facebook</a>
+                                        <a href="https://www.instagram.com/" class="list__links">Instagram</a>
+                                    </div>
+                                </div>
+                                <div class="bars-menu__map--list flex block-desktop block480">
+                                    <p class="list__greytext">Как добраться:</p>
+                                    <a href="https://www.google.ru/maps/dir/https:%2F%2Fwww.google.ru%2Fmaps%2Fplace%2F%25D0%259F%25D0%25BE%25D1%2587%25D1%2582%25D0%25B0%2B%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D0%25B8%2F@55.747128,37.5369521,17z%2Fdata%3D!3m1!4b1!4m5!3m4!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!8m2!3d55.747128!4d37.5391408%3Fhl%3Dru/%D0%9F%D0%BE%D1%87%D1%82%D0%B0+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8,+%D0%9F%D1%80%D0%B5%D1%81%D0%BD%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BD%D0%B0%D0%B1.,+8+%D1%811,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+123317/@55.7471081,37.4691014,12z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!2m2!1d37.5391408!2d55.747128!3e0?hl=ru"
+                                        class="list__links">Схема проезда</a>
+                                </div>
+                                <div class="bars-menu__address--list flex">
+                                    <a href="https://www.google.ru/maps/place/%D0%9F%D0%BE%D1%87%%82%D0%B0+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8/@55.747128,37.5369521,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!8m2!3d55.747128!4d37.5391408?hl=ru"
+                                        class="grey__link">123317, г. Москва, Пресненская наб., д.
+                                        8, стр. 1, эт. 3, п. 1, оф. 10</a>
+                                    <div class="inn-kpp">
+                                        <a href="" class="grey__link">ИНН: 7703472433</a>
+                                        <a href="" class="grey__link">КПП: 770301001</a>
+                                    </div>
+                                </div>
+                                <div class="bars-menu__img block-desktop">
+                                    <img src="img/bars-img.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- MAIN -->
+        <main>
+
+            <!-- HERO PART -->
+            <div class="content-wrapper">
+                <div class="hero flex">
+                    <div class="hero__content flex">
+                        <div class="greyheadertext">ВАШ IP ПАРТНЕР</div>
+                        <h1 class="h1">Регистрация товарного знака</h1>
+                        <p class="greytext textcenter text-start mb15">Полный цикл регистрации товарного знака от подачи
+                            заявки до поддержки после регистрации</p>
+                        <div class="div-btns">
+                            <a class="divs-wrapper">
+                                <div class="div--text">
+                                    Получить индивидуальную консультацию
+                                </div>
+                                <div class="div--border"></div>
+                            </a>
+                            <a href="services.html" class="arrowbtn flex">
+                                <p class="arrowbtntext">Все услуги</p>
+                                <div href="#" class="arrow--right">
+                                    <img src="img/arrowright.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero__img">
+                        <img src="img/page4-hero-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARDS 1-->
+            <div class="cards1">
+                <div class="cards1__card">
+                    <img src="img/logo3.png" alt="" class="none-in-768 none-desktop">
+                    <img src="img/logo5.png" class="card1-tablet-img none-desktop block-in-1000" alt="">
+                    <img src="img/logo4.png" class="card1-desktop-img" alt="">
+                </div>
+                <div class="cards1__card flex-in-768 ">
+                    <img src="img/logo4.png" alt="" class="none-in-768 none-desktop">
+                    <img src="img/logo2.png" class="card1-tablet-img" alt="">
+                </div>
+                <div class="cards1__card flex-in-1000">
+                    <img src="img/logo2.png" alt="" alt="" class="none-in-768 none-desktop  ">
+                    <img src="img/logo6.png" alt="" alt="" class="card1-tablet-img">
+                </div>
+                <div class="cards1__card block-desktop">
+                    <img src="img/logo3.png" alt="">
+                </div>
+            </div>
+
+
+            <!-- CARDS 2 -->
+            <div class="content-wrapper">
+                <h2 class="h2text mb35">Процесс работы</h2>
+                <div class="cards2">
+                    <div class="cards2__card">
+                        <div class="cards2__part1">
+                            <div class="number__img--div">
+                                <img src="img/1.png" alt="">
+                            </div>
+                            <h3 class="cards1-headertext fs-16">Безопасность для бренда</h3>
+                        </div>
+                        <p class="greytext fs-14">Оценка вероятности регистрации, выявление знаков, которые могут
+                            помешать
+                            регистрации</p>
+                    </div>
+                    <div class="cards2__card">
+                        <div class="cards2__part1">
+                            <div class="number__img--div">
+                                <img src="img/2.png" alt="">
+                            </div>
+                            <h3 class="cards1-headertext fs-16">Нематериальный актив</h3>
+                        </div>
+                        <p class="greytext fs-14">Проведение анализа по всем основаниям для отказа в регистрации знака
+                        </p>
+                    </div>
+                    <div class="cards2__card">
+                        <div class="cards2__part1">
+                            <div class="number__img--div">
+                                <img src="img/3.png" alt="">
+                            </div>
+                            <h3 class="cards1-headertext fs-16">Рекомендации</h3>
+                        </div>
+                        <p class="greytext fs-14">Невозможно случайно нарушить чужие права при регистрации товарного
+                            знака
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- CARDS 3 -->
+            <div class="content-wrapper">
+                <h2 class="h2text none-desktop">Когда необходимо</h2>
+                <h2 class="h2text block-in-1000">Что дает регистрация патента?</h2>
+                <div class="cards3">
+                    <div class="cards3__card--bg">
+                        <div class="cards3__card">
+                            <h3 class="cards3-headertext">Защита своего бренда</h3>
+                            <p class="greytext">Регистрация товарного знака позволяет получить правовую охрану своего
+                                бренда</p>
+                        </div>
+                    </div>
+                    <div class="cards3__card--bg">
+                        <div class="cards3__card">
+                            <h3 class="cards3-headertext">Ненарушение прав</h3>
+                            <p class="greytext">Наличие прав подтверждает соответствие бренда требованиям
+                                законодательства</p>
+                        </div>
+                    </div>
+                    <div class="cards3__card--bg">
+                        <div class="cards3__card">
+                            <h3 class="cards3-headertext">Нематериальный актив</h3>
+                            <p class="greytext">Права на знак могут приносить дополнительный доход при их использовании
+                                и распоряжении (коммерциализации)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- REDMAIN 1 -->
+        <section class="red-main">
+            <div class="content-wrapper">
+                <div class="red-main__content flex">
+                    <img src="img/globus.png" class="globus--img" alt="">
+                    <p class="h2text mt-0 align-center">Не знаете, что вам нужно? </p>
+                    <div class="whitetext textcenter mb50">Пройдите квиз, чтобы выбрать оптимальное решение для Вашей
+                        задачи
+                    </div>
+                    <div class="red-main__part1 flex">
+                        <div class="red-main__page-text flex">
+                            <h3 class="red--card__headertext">С какой целью вы обращаетесь?</h3>
+                            <p class="wrapper__numberstext"><span class="redtext">2</span>/8</p>
+                        </div>
+                        <div class="red-main__links--div flex">
+                            <a href="" class="red-main__link">Регистрацию полезной модели</a>
+                            <a href="" class="red-main__link">Регистрацию промышленного образца</a>
+                            <a href="" class="red-main__link">Регистрацию прав на использование полезной модели,
+                                промобразца, изобретенния</a>
+                            <a href="" class="red-main__link">Подготовка заявки на выдачу патента</a>
+                            <a href="" class="red-main__link">Регистрацию изобретения</a>
+                            <a href="" class="red-main__link">Подготовка заявки на передачу прав патента</a>
+                        </div>
+                        <div class="back-next--div flex">
+                            <div href="#" class="sm-circle--arrow left flex for-redmain">
+                                <p class="arrowbtntext">Назад</p>
+                                <div href="" class="arrow--left for-redmain-icon--left">
+                                    <img src="img/arrowleft.png" alt="">
+                                </div>
+                            </div>
+                            <div href="#" class="sm-circle--arrow flex for-redmain">
+                                <p class="arrowbtntext">Далее </p>
+                                <div href="" class="arrow--right arrow--right--circle for-redmain-icon--right">
+                                    <img src="img/arrowrightcircle.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="red--card__headertext mb20">Бонусы после прохождения</p>
+                    <div class="red-main__part2 flex">
+                        <div class="rm__part2--button flex">
+                            <div class="for-img">
+                                <img src="img/romb1.png" alt="">
+                            </div>
+                            <div class="for-text flex">
+                                <p class="whitetext">Название бонуса в однуили две строки</p>
+                            </div>
+                        </div>
+                        <div class="rm__part2--button flex">
+                            <div class="for-img">
+                                <img src="img/romb2.png" alt="">
+                            </div>
+                            <div class="for-text flex">
+                                <p class="whitetext">Название бонуса в однуили две строки</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MAIN 2 -->
+        <section class="main2">
+            <div class="content-wrapper">
+                <div class="main2__part1--div">
+                    <div class="main2__part1--textpart">
+                        <h2 class="h2text mb14">Процесс работы</h2>
+                        <p class="greytext">Достаточно емкое описание блока в две строки, позволяющее расскрыть смысл
+                            блока, привлечь внимание пользователя и побудить в действию</p>
+                    </div>
+                    <div class="main2__part1--arrowspart">
+                        <div class="wrappers--div flex center mb40">
+                            <div href="#" class="sm-circle--arrow left flex">
+                                <div href="" class="arrow--left">
+                                    <img src="img/arrowleft.png" alt="">
+                                </div>
+                            </div>
+                            <div href="#" class="sm-circle--arrow flex">
+                                <div href="" class="arrow--right arrow--right--circle">
+                                    <img src="img/arrowrightcircle.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MAIN 2 CARDS -->
+                <div class="main2__cards--div">
+                    <div class="main2__card">
+                        <div class="main2__card--numberpart">
+                            <div class="main2__card--number-img--div">
+                                <img src="img/page4-1.png" alt="">
+                            </div>
+                            <img src="img/page4-card--arrow.svg" alt="">
+                        </div>
+                        <p class="greytext red">Подготовка и подача заявки</p>
+                    </div>
+                    <div class="main2__card">
+                        <div class="main2__card--numberpart">
+                            <div class="main2__card--number-img--div">
+                                <img src="img/page4-2.png" alt="">
+                            </div>
+                            <img src="img/page4-card--arrow.svg" alt="">
+                        </div>
+                        <p class="greytext">Делопроизводство и сопровождение заявки</p>
+                    </div>
+                    <div class="main2__card none-mobile block-in-768">
+                        <div class="main2__card--numberpart">
+                            <div class="main2__card--number-img--div">
+                                <img src="img/page4-3.png" alt="">
+                            </div>
+                            <img src="img/page4-card--arrow.svg" alt="">
+                        </div>
+                        <p class="greytext">Поддержка после регистрации</p>
+                    </div>
+                    <div class="main2__card none-mobile block-in-1000">
+                        <div class="main2__card--numberpart">
+                            <div class="main2__card--number-img--div">
+                                <img src="img/page4-4.png" alt="">
+                            </div>
+                            <img src="img/page4-card--arrow.svg" alt="">
+                        </div>
+                        <p class="greytext">Выдача свидетельства на товарный знак</p>
+                    </div>
+                    <div class="main2__card none-mobile">
+                        <div class="main2__card--numberpart">
+                            <div class="main2__card--number-img--div">
+                                <img src="img/page4-5.png" alt="">
+                            </div>
+                        </div>
+                        <p class="greytext">Продление товарного <br> знака</p>
+                    </div>
+                </div>
+
+                <!-- MAIN 2 UL LI -->
+                <div class="ul-part__div">
+                    <div class="ul--part">
+                        <ul>Предварительное обсуждение
+                            <li>Проверка товарного знака на охраноспособность, тождество и сходство в отношении
+                                интересующих
+                                товаров / услуг.</li>
+                            <li> Подбор классов МКТУ</li>
+                        </ul>
+                        <ul class="mb35">Результаты этапа
+                            <li class="list-style-none">Вы получаете официальное уведомление (подтверждение)
+                                от Роспатента
+                                о подаче заявки.</li>
+                        </ul>
+                    </div>
+                    <div class="ul--part__img--div none-mobile none-480 block-in-768">
+                        <img src="img/page4-ul-img.svg" alt="">
+                    </div>
+                </div>
+                <div class="wrappers--div flex center mb65 block-mobile">
+                    <div href="#" class="sm-circle--arrow left flex">
+                        <div href="" class="arrow--left">
+                            <img src="img/arrowleft.png" alt="">
+                        </div>
+                    </div>
+                    <div href="#" class="sm-circle--arrow flex">
+                        <div href="" class="arrow--right arrow--right--circle">
+                            <img src="img/arrowrightcircle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- MAIN 2 ACCORDIONS -->
+                <div class="content-wrapper">
+                    <h2 class="h2text mb35">Часто задаваемые вопросы</h2>
+
+                    <!-- accordion 1 -->
+                    <input type="checkbox" name="" id="accordion" checked>
+                    <label for="accordion">
+                        <div class="accordion--div">
+                            <p>Что такое патент и что он дает?</p>
+                            <i class="fa-solid fa-arrow-down-long"></i>
+                        </div>
+                    </label>
+                    <div class="accordion__text--div">
+                        Патент — это охранный документ, предоставляющий вам исключительное право на определённый
+                        результат интеллектуальной деятельности (изобретение, полезную модель, промышленный образец).
+                        Иными словами, патент — это гарантия вашей временной монополии на производство, распространение
+                        и сбыт определённого продукта (устройства, вещества, штамма микроорганизмов и т.д.), в том числе
+                        характеризующегося только оригинальным внешним видом, реализацию описанного в патенте способа
+                        выполнения того или иного действия (технологию). В обмен на предоставление вам такого
+                        исключительного права вы публично раскрываете в описании патента всю информацию о вашем продукте
+                        или технологии.
+                    </div>
+
+                    <!-- accordion 2 -->
+                    <input type="checkbox" name="" id="accordion2">
+                    <label for="accordion2">
+                        <div class="accordion--div2">
+                            <p>Как защититься от кражи бренда конкурентами?</p>
+                            <i class="fa-solid fa-arrow-down-long"></i>
+                        </div>
+                    </label>
+                    <div class="accordion__text--div2">
+                        Патент — это охранный документ, предоставляющий вам исключительное право на определённый
+                        результат интеллектуальной деятельности (изобретение, полезную модель, промышленный образец).
+                        Иными словами, патент — это гарантия вашей временной монополии на производство, распространение
+                        и сбыт определённого продукта (устройства, вещества, штамма микроорганизмов и т.д.), в том числе
+                        характеризующегося только оригинальным внешним видом, реализацию описанного в патенте способа
+                        выполнения того или иного действия (технологию).
+                    </div>
+
+                    <!-- accordion 3 -->
+                    <input type="checkbox" name="" id="accordion3">
+                    <label for="accordion3">
+                        <div class="accordion--div3">
+                            <p>Как и где узнать, зарегистрировал ли конкурент ваш товарный знак?</p>
+                            <i class="fa-solid fa-arrow-down-long"></i>
+                        </div>
+                    </label>
+                    <div class="accordion__text--div3">
+                        Патент — это охранный документ, предоставляющий вам исключительное право на определённый
+                        результат интеллектуальной деятельности (изобретение, полезную модель, промышленный образец).
+                        Иными словами, патент — это гарантия вашей временной монополии на производство, распространение
+                        и сбыт определённого продукта.
+                    </div>
+
+                    <!-- accordion 4 -->
+                    <input type="checkbox" name="" id="accordion4">
+                    <label for="accordion4">
+                        <div class="accordion--div4">
+                            <p>Что такое патент и что он дает?</p>
+                            <i class="fa-solid fa-arrow-down-long"></i>
+                        </div>
+                    </label>
+                    <div class="accordion__text--div4">
+                        Патент — это охранный документ, предоставляющий вам исключительное право на определённый
+                        результат интеллектуальной деятельности (изобретение, полезную модель, промышленный образец).
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="red-main2">
+            <div class="content-wrapper">
+                <div class="red-main2__content flex">
+                    <div class="red-main2__textpart">
+                        <h2 class="h2text align-center text-start">Не нашли нужную услугу?Оставьте заявку, мы вам
+                            поможем!</h2>
+                        <p class="greytext mb35 align-center white text-start">У нас есть решения для всех ваших
+                            потребностей
+                            в сфере
+                            защиты
+                            и регистрации интеллектуальной собственности</p>
+                        <div class="divs-wrapper center not-center">
+                            <div class="div--text black">
+                                Оставить заявку <br> на консультацию
+                            </div>
+                            <div class="div--border black-border"></div>
+                        </div>
+                    </div>
+                    <div class="red-main2__imgpart block-desktop block-in-768">
+                        <img src="img/page2-redmain2-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="content-wrapper">
+                <div class="footer__part1 flex">
+                    <img src="img/logo.png" alt="">
+                    <div class="footer__part1__text--div flex">
+                        <div class="footer-greytext">Общество с ограниченной
+                            ответственностью «Центр интеллектуальной собственности и инноваций „АйПиХаб“»
+                        </div>
+                        <div class="footer__part1__link--div flex">
+                            <div class="footer__link--adress">
+                                <a href="https://www.google.ru/maps/place/%D0%9F%D0%BE%D1%87%D1%82%D0%B0+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8/@55.747128,37.5369521,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!8m2!3d55.747128!4d37.5391408?hl=ru"
+                                    class="footer-greytext white">
+                                    123317, г. Москва, Пресненская наб., д.
+                                    8, стр. 1, эт. 3, п. 1, оф. 10
+                                </a>
+                            </div>
+                            <div class="footer__link--inn--div flex">
+                                <a class="inn-kpp"><span class="grey m-0">ИНН:</span>7703472433</a>
+                                <a class="inn-kpp"><span class="grey m-0">КПП:</span>770301001</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__line"></div>
+                <div class="footer__part2 flex">
+                    <div class="footer__navigationlinks--div">
+                        <p class="footer__link--headertext">Навигация:</p>
+                        <a class="footer__link--linktext">Услуги</a>
+                        <a class="footer__link--linktext">Кейсы</a>
+                        <a class="footer__link--linktext">FAQ</a>
+                    </div>
+                    <div class="footer__contactlinks--div">
+                        <p class="footer__link--headertext">Наши контакты:</p>
+                        <a href="mailto:a@agmail.com" class="footer__link--linktext">example@iphub.com</a>
+                        <a href="tel:+998990000000" class="footer__link--linktext">+7 (888) 888 88 88</a>
+                        <a href="https://www.google.ru/maps/dir//%D0%9F%D0%BE%D1%87%D1%82%D0%B0+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8,+%D0%9F%D1%80%D0%B5%D1%81%D0%BD%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BD%D0%B0%D0%B1.,+8+%D1%811,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+123317/@55.747128,37.5369521,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x46b54bdd991da2dd:0xefc9920b13ba30a6!2m2!1d37.5391408!2d55.747128!3e0?hl=ru"
+                            class="footer__link--linktext block-in-768 block-mobile">Схема проезда</a>
+                    </div>
+                    <div class="footer__sociallinks--div">
+                        <p class="footer__link--headertext">Мы в соцсетях:</p>
+                        <div class="social-links__wrapper flex">
+                            <a href="https://www.facebook.com/" class="footer__link--linktext">Facebook</a>
+                            <a href="https://www.instagram.com/" class="footer__link--linktext">Instagram</a>
+                        </div>
+                    </div>
+                    <div class="footer__maplinks--div none-in-768 block-in-1000 db">
+                        <p class="footer__link--headertext">Как добраться:</p>
+                        <a href="" class="footer__link--linktext">Схема проезда</a>
+                    </div>
+                </div>
+                <div class="footer__part3 flex">
+                    <a class="footer-greytext">© 2021 IPhub. Все права защищены.</a>
+                    <a class="footer-greytext white">Публичная оферта</a>
+                    <a class="footer-greytext white">Пользовательское соглашение</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
