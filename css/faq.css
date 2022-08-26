@@ -7644,3 +7644,12 @@
         transition: ease 0.7s;
     }
 }
+
+/* MEDIA CORRECTION */
+@media (min-width:1001px) {
+    .footer__link--inn--div {
+        margin: 0;
+    }
+}
+
+@media (min-width:481px) and (max-width:740px) {}
